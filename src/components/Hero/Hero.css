@@ -1,0 +1,22 @@
+.hero {
+  background-image: url("../../img/stock-photo.jpg");
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 120px;
+}
+
+.hero a {
+  background-color: #fff;
+  padding:15px;
+  border-radius: 20px;
+  margin-left: 120px;
+  color: #000;
+}
