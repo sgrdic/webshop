@@ -1,0 +1,50 @@
+.productCard {
+  padding-top: 20px;
+  position: relative;
+}
+
+.productCard img {
+  height: 400px;
+}
+
+.inStock {
+  width: 100%;
+  text-align: center;
+  background-color: #8ad811;
+  color: #fff;
+}
+
+.outOfStock {
+  width: 100%;
+  text-align: center;
+  background-color: gray;
+  color: #fff;
+}
+
+.notNew,
+.notOnSale {
+  display: none;
+}
+
+.isNew {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 10px;
+  padding: 4px 20px;
+  text-align: center;
+  background-color: yellow;
+  box-sizing: border-box;
+}
+
+.onSale {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 10px;
+  padding: 4px 20px;
+  text-align: center;
+  background-color: red;
+  box-sizing: border-box;
+  color: #fff;
+}

@@ -1,10 +1,12 @@
 import "./GalleryContainer.css";
-import "./ProductCardChild"
+import ProductCardChild from "./ProductCardChild"
+// import { productsData } from "/mocks/dummyData.js";
+import { productsData } from "../../mocks/dummyData";
 
 function GalleryContainer(){
   return <div className="gallery">
-    {ProductsData.map((item) => (
-        <ProductCardChild data={item} />
+    {productsData.map((item) => (
+        <ProductCardChild key={item.id} product={item} />
       ))}
   </div>
 }
